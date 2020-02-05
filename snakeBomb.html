@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>SnakeBomb</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>ERIK GYLLING</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="project-image-wrapper">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <div class="mySlides">
+                            <img src="images/SnakeBomb/menu.png">
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/SnakeBomb/singlePlayer.png">
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/SnakeBomb/multilplayer.png">
+                        </div>
+
+                        <div class="mySlides">
+                            <img src="images/SnakeBomb/lost.png">
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!-- The dots/circles -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-content-wrapper">
+
+                    <div class="description">
+                        <h2>SnakeBomb</h2>
+                        <p>SnakeBomb is a recreation of the classic game snake.
+                            The game was a school project at 1st term at the DTU, and the purpose was to show our skills
+                            in Java.
+                        </p>
+                        <h3>Languages & Technologies</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>JavaFX</li>
+                        </ul>
+
+                    </div>
+                    <div class="code">
+                        <h2>Download</h2>
+                        <div class="project">
+                            <div class="project-logo">
+                                <img src="images/logos/document.png">
+                            </div>
+                            <div class="project-link">
+                                <a href="./projects/SnakeBomb.jar">SnakeBomb</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="slider.js"></script>
+
+</html>
