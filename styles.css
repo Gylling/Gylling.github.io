@@ -117,7 +117,7 @@ body {
 }
 
 /* Computer */
-@media screen and (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
     body {
         font-family: 'Lato', sans-serif;
         margin: 0px;
