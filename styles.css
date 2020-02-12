@@ -116,6 +116,58 @@ body {
 
 }
 
+/* About page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+}
+
+.profile-content-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description {
+    padding-bottom: 10px;
+}
+
+.profile-content-wrapper h1 {
+    color: lightseagreen;
+}
+
+.bibliography {
+    margin-bottom: 80px;
+}
+
+
+
+.project {
+    display: flex;
+}
+
+.project-logo {
+    margin-right: 5px;
+    width: 20px;
+}
+
+    .project-logo img {
+        width: 100%;
+    }
+
+.project-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+}
+
+
 /* Computer */
 @media screen and (min-device-width: 768px) {
     body {
@@ -234,59 +286,58 @@ body {
         transition: 1s;
         filter: brightness(10%);
     }
-}
-/* About page */
-.two-column-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
-.profile-image-wrapper img {
-    width: 100%;
-}
+    /* About page */
+    .two-column-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-.profile-content-wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.description {
-    padding-bottom: 10px;
-}
-
-.profile-content-wrapper h1 {
-    color: lightseagreen;
-}
-
-.bibliography {
-    margin-bottom: 80px;
-}
-
-
-
-.project {
-    display: flex;
-}
-
-.project-logo {
-    margin-right: 5px;
-    width: 20px;
-}
-
-    .project-logo img {
+    .profile-image-wrapper img {
         width: 100%;
     }
 
-.project-link a {
-    color: #8a8a8a;
-    text-decoration: none;
+    .profile-content-wrapper {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        padding-bottom: 10px;
+    }
+
+    .profile-content-wrapper h1 {
+        color: lightseagreen;
+    }
+
+    .bibliography {
+        margin-bottom: 80px;
+    }
+
+
+
+    .project {
+        display: flex;
+    }
+
+    .project-logo {
+        margin-right: 5px;
+        width: 20px;
+    }
+
+        .project-logo img {
+            width: 100%;
+        }
+
+    .project-link a {
+        color: #8a8a8a;
+        text-decoration: none;
+    }
 }
-
-
 /* Snakebomb */
 
 .project-content-wrapper {
