@@ -176,7 +176,7 @@ body {
 /* UBC Computer Graphics */
 .project-image-wrapper {
     width: 100%;
-    height: 700px; /*Det her skal rettes*/
+    height: 700px;
     display: flex;
 }
 
