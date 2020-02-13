@@ -32,10 +32,7 @@ function resize() {
 canvas.addEventListener('resize',resize);
 resize();
 
-//SCROLLBAR FUNCTION DISABLE
-window.onscroll = function () {
-     window.scrollTo(0,0);
-}
+
 
 ////////////////////////////////////////////////
 //  ADD LIGHTS                                //
