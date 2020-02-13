@@ -8,8 +8,6 @@
 ////////////////////////////////////////////////
 
 var canvas = document.getElementById('canvas');
-canvas.style.width='100%';
-canvas.style.height='100%';
 
 var scene = new THREE.Scene();
 var renderer = new THREE.WebGLRenderer();
