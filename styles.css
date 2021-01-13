@@ -106,6 +106,12 @@ body {
     background-color: transparent;
 }
 
+.dtu-logo-wrapper img {
+    width: 25%;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
 .img-text-wrapper .subtitle {
     font-weight: 600;
     color: transparent;
